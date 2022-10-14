@@ -154,12 +154,12 @@ function update(){
 
     // movement when not running
     speed = 2;
-    maxspeed = 2.5;
-    animspeed = 2;
+    maxspeed = 2;
+    animspeed = 1.5;
 
     if (inputs.x) { // movement when run button is held
         speed = 3;
-        maxspeed = 3.5;
+        maxspeed = 3;
         animspeed = 3;
     }
 
